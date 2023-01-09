@@ -253,7 +253,8 @@
    }
 
    function makeImageUrl(nameIn) {
-      if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
+      //if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
+      if (false) { 
          return "url(file:///D:/Code/BiogPage/" + nameIn + ")";
       }
       return "url(https://" + nameIn + ")";
