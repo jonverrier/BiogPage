@@ -6,7 +6,7 @@
 * [Licence](#licence)
 
 ## General info
-My personal profile page. Tech, bikes, CrossFit. 
+My personal profile page. Tech, CrossFit, Bikes. 
 
 ## Technologies 
 Bootstrap 5
