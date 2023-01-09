@@ -252,18 +252,24 @@
       setInterval(function () { onTimer (params) }, 10000);
    }
 
+   function makeImageUrl(nameIn) {
+      if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
+         return "url(file:///D:/Code/BiogPage/" + nameIn + ")";
+      }
+      return "url(https:./" + nameIn + ")";
+   }
    window.addEventListener('load', () => {
-      cycleBackground('hero', ["url(file:///D:/Code/BiogPage/public/assets/img/hero-bike-sq.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/hero-crossfit-sq.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/hero-london-sq.png)"])
+      cycleBackground('hero', [makeImageUrl("public/assets/img/hero-bike-sq.png"),
+         makeImageUrl("public/assets/img/hero-crossfit-sq.png"),
+         makeImageUrl("public/assets/img/hero-london-sq.png")])
    });
 
    window.addEventListener('load', () => {
-      cycleBackground('about-logo', ["url(file:///D:/Code/BiogPage/public/assets/img/logo-accenture.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/logo-clearstream.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/logo-bacs.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/logo-egg.png)",
-         "url(file:///D:/Code/BiogPage/public/assets/img/logo-ie.png)"      ])
+      cycleBackground('about-logo', [makeImageUrl("public/assets/img/logo-accenture.png"),
+         makeImageUrl("public/assets/img/logo-clearstream.png"),
+         makeImageUrl("public/assets/img/logo-bacs.png"),
+         makeImageUrl("public/assets/img/logo-egg.png"),
+         makeImageUrl("public/assets/img/logo-ie.png")])
    });
 
 })()
