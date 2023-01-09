@@ -256,7 +256,7 @@
       if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
          return "url(file:///D:/Code/BiogPage/" + nameIn + ")";
       }
-      return "url(https:./" + nameIn + ")";
+      return "url(https://./" + nameIn + ")";
    }
    window.addEventListener('load', () => {
       cycleBackground('hero', [makeImageUrl("public/assets/img/hero-bike-sq.png"),
