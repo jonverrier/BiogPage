@@ -62,7 +62,6 @@
          </nav><!-- .navbar -->
       </div>
    </header><!-- End Header -->
-
    <!-- ======= Hero Section ======= -->
    <section id="hero" class="hero">
       <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -107,7 +106,6 @@
             </div>
          </div>
       </section><!-- End About Section -->
-
       <!-- ======= Contact Section ======= -->
       <section id="contact">
          <div class="container">
@@ -176,6 +174,16 @@
    <script src="assets/vendor/aos/aos.js"></script>
    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+   <script async src="https://www.google.com/recaptcha/api.js"></script>
+   <script>
+      // If reCAPTCHA is still loading, grecaptcha will be undefined.
+      grecaptcha.ready(function () {
+         grecaptcha.render("container", {
+            sitekey: "6LczaOcjAAAAAH_KS-SC1oA9y5D6b9ULHatihgmQ"
+         });
+      });
+   </script>
 
    <!-- Local JS File -->
    <script src="assets/js/main.js"></script>
