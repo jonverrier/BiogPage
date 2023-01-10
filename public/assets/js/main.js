@@ -254,23 +254,23 @@
 
    function makeImageUrl(nameIn) {
       if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
-         return "url(file:///D:/Code/BiogPage/" + nameIn + ")";
+         return "url(file:///D:/Code/BiogPage/public" + nameIn + ")";
       }
       return "url(" + nameIn + ")";
    }
 
    window.addEventListener('load', () => {
-      cycleBackground('hero', [makeImageUrl("public/assets/img/hero-bike-sq.png"),
-         makeImageUrl("public/assets/img/hero-crossfit-sq.png"),
-         makeImageUrl("public/assets/img/hero-london-sq.png")])
+      cycleBackground('hero', [makeImageUrl("/assets/img/hero-bike-sq.png"),
+         makeImageUrl("/assets/img/hero-crossfit-sq.png"),
+         makeImageUrl("/assets/img/hero-london-sq.png")])
    });
 
    window.addEventListener('load', () => {
-      cycleBackground('about-logo', [makeImageUrl("public/assets/img/logo-accenture.png"),
-         makeImageUrl("public/assets/img/logo-clearstream.png"),
-         makeImageUrl("public/assets/img/logo-bacs.png"),
-         makeImageUrl("public/assets/img/logo-egg.png"),
-         makeImageUrl("public/assets/img/logo-ie.png")])
+      cycleBackground('about-logo', [makeImageUrl("/assets/img/logo-accenture.png"),
+         makeImageUrl("/assets/img/logo-clearstream.png"),
+         makeImageUrl("/assets/img/logo-bacs.png"),
+         makeImageUrl("/assets/img/logo-egg.png"),
+         makeImageUrl("/assets/img/logo-ie.png")])
    });
 
 })()
