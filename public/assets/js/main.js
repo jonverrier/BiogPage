@@ -258,6 +258,7 @@
       }
       return "url(https://" + nameIn + ")";
    }
+
    window.addEventListener('load', () => {
       cycleBackground('hero', [makeImageUrl("public/assets/img/hero-bike-sq.png"),
          makeImageUrl("public/assets/img/hero-crossfit-sq.png"),
