@@ -2,6 +2,7 @@
 *.manifest
 *.testlog
 *.log
+*.map
 .vs/*
 .github/*
 
