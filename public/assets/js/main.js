@@ -260,39 +260,25 @@
    }
 
    window.addEventListener('load', () => {
-<<<<<<< HEAD
       cycleBackground('hero', [makeImageUrl("/assets/img/hero-bike-sq.png"),
-         makeImageUrl("/assets/img/hero-crossfit-sq.png"),
-         makeImageUrl("/assets/img/hero-london-sq.png")])
+      makeImageUrl("/assets/img/hero-crossfit-sq.png"),
+      makeImageUrl("/assets/img/hero-london-sq.png")])
    });
 
    window.addEventListener('load', () => {
-      cycleBackground('about-logo', [makeImageUrl("/assets/img/logo-accenture.png"),
-         makeImageUrl("/assets/img/logo-clearstream.png"),
-         makeImageUrl("/assets/img/logo-bacs.png"),
-         makeImageUrl("/assets/img/logo-egg.png"),
-         makeImageUrl("/assets/img/logo-ie.png")])
-=======
-      cycleBackground('hero', ["url(file:///C:/Code/BiogPage/public/assets/img/hero-bike-sq.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/hero-crossfit-sq.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/hero-london-sq.png)"])
+      cycleBackground('about-logos', [makeImageUrl("/assets/img/logo-accenture.png"),
+      makeImageUrl("/assets/img/logo-clearstream.png"),
+      makeImageUrl("/assets/img/logo-bacs.png"),
+      makeImageUrl("/assets/img/logo-egg.png"),
+      makeImageUrl("/assets/img/logo-ie.png")])
    });
 
    window.addEventListener('load', () => {
-      cycleBackground('about-logos', ["url(file:///C:/Code/BiogPage/public/assets/img/logo-accenture.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/logo-clearstream.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/logo-bacs.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/logo-egg.png)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/logo-ie.png)"      ])
-   });
-
-   window.addEventListener('load', () => {
-      cycleBackground('about-pics', ["url(file:///C:/Code/BiogPage/public/assets/img/sariwd-solo-r-s.jpg)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/sariwd-group1-r-s.jpg)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/sariwd-group2-r-s.jpg)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/sariwd-map-r-s.jpg)",
-         "url(file:///C:/Code/BiogPage/public/assets/img/sariwd-hr-r-s.jpg)"])
->>>>>>> develop
+      cycleBackground('about-pics', [makeImageUrl("/assets/img/sariwd-solo-r-s.jpg"),
+      makeImageUrl("/assets/img/sariwd-group1-r-s.jpg"),
+      makeImageUrl("/assets/img/sariwd-group2-r-s.jpg"),
+      makeImageUrl("/assets/img/sariwd-map-r-s.jpg"),
+      makeImageUrl("/assets/img/sariwd-hr-r-s.jpg")])
    });
 
 })()
