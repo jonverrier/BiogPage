@@ -487,49 +487,56 @@ section {
 
 /* About Section
 --------------------------------*/
-#about {
+.about {
   background: #fff;
   padding: 80px 0;
 }
 
-#about .about-container .background {
-  min-height: 300px;
+#about-career .about-container .background {
+  min-height: 200px;
   background: url(../img/logo-accenture.png) center no-repeat;
   margin-bottom: 10px;
    -webkit-transition: background-image 3s;
 }
 
-#about .about-container .content {
+#about-hotstuff .about-container .background {
+   min-height: 200px;
+   background: url(../img/sariwd-solo-r-s.jpg) center no-repeat;
+   margin-bottom: 10px;
+   -webkit-transition: background-image 3s;
+}
+
+.about .about-container .content {
   background: #fff;
 }
 
-#about .about-container .title {
+.about .about-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #about .about-container .title {
+  .about .about-container .title {
     padding-top: 15px;
   }
 }
 
-#about .about-container p {
+.about .about-container p {
   line-height: 26px;
 }
 
-#about .about-container p:last-child {
+.about .about-container p:last-child {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+.about .about-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+.about .about-container .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -543,13 +550,13 @@ section {
   border: 2px solid #2dc997;
 }
 
-#about .about-container .icon-box .icon i {
+.about .about-container .icon-box .icon i {
   color: #2dc997;
   font-size: 24px;
   line-height: 0;
 }
 
-#about .about-container .icon-box .title {
+.about .about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -557,11 +564,11 @@ section {
   text-transform: uppercase;
 }
 
-#about .about-container .icon-box .title a {
+.about .about-container .icon-box .title a {
   color: #111;
 }
 
-#about .about-container .icon-box .description {
+.about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
