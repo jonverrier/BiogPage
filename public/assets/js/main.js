@@ -281,12 +281,4 @@
          makeImageUrl("/assets/img/sariwd-hr-r-s.jpg")])
    });
 
-   window.addEventListener('load', () => {
-      cycleBackground('about-pics-l', [makeImageUrl("/assets/img/sariwd-solo-r-s.jpg"),
-      makeImageUrl("/assets/img/sariwd-group1-r.jpg"),
-      makeImageUrl("/assets/img/sariwd-group2-r.jpg"),
-      makeImageUrl("/assets/img/sariwd-map-r.jpg"),
-      makeImageUrl("/assets/img/sariwd-hr-r.jpg")])
-   });
-
 })()
