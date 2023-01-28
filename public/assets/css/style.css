@@ -499,9 +499,15 @@ section {
    -webkit-transition: background-image 3s;
 }
 
-#about-hotstuff .about-container .background {
+#about-hotstuff-s .about-container .background {
    min-height: 200px;
    background: url(../img/sariwd-solo-r-s.jpg) center no-repeat;
+   margin-bottom: 10px;
+   -webkit-transition: background-image 3s;
+}
+
+#about-hotstuff-l .about-container .background {
+   background: url(../img/sariwd-solo-r.jpg) center no-repeat;
    margin-bottom: 10px;
    -webkit-transition: background-image 3s;
 }
