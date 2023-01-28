@@ -261,24 +261,24 @@
 
    window.addEventListener('load', () => {
       cycleBackground('hero', [makeImageUrl("/assets/img/hero-bike-sq.png"),
-      makeImageUrl("/assets/img/hero-crossfit-sq.png"),
-      makeImageUrl("/assets/img/hero-london-sq.png")])
+         makeImageUrl("/assets/img/hero-crossfit-sq.png"),
+         makeImageUrl("/assets/img/hero-london-sq.png")])
    });
 
    window.addEventListener('load', () => {
       cycleBackground('about-logos', [makeImageUrl("/assets/img/logo-accenture.png"),
-      makeImageUrl("/assets/img/logo-clearstream.png"),
-      makeImageUrl("/assets/img/logo-bacs.png"),
-      makeImageUrl("/assets/img/logo-egg.png"),
-      makeImageUrl("/assets/img/logo-ie.png")])
+         makeImageUrl("/assets/img/logo-clearstream.png"),
+         makeImageUrl("/assets/img/logo-bacs.png"),
+         makeImageUrl("/assets/img/logo-egg.png"),
+         makeImageUrl("/assets/img/logo-ie.png")])
    });
 
    window.addEventListener('load', () => {
       cycleBackground('about-pics', [makeImageUrl("/assets/img/sariwd-solo-r-s.jpg"),
-      makeImageUrl("/assets/img/sariwd-group1-r-s.jpg"),
-      makeImageUrl("/assets/img/sariwd-group2-r-s.jpg"),
-      makeImageUrl("/assets/img/sariwd-map-r-s.jpg"),
-      makeImageUrl("/assets/img/sariwd-hr-r-s.jpg")])
+         makeImageUrl("/assets/img/sariwd-group1-r-s.jpg"),
+         makeImageUrl("/assets/img/sariwd-group2-r-s.jpg"),
+         makeImageUrl("/assets/img/sariwd-map-r-s.jpg"),
+         makeImageUrl("/assets/img/sariwd-hr-r-s.jpg")])
    });
 
 })()
