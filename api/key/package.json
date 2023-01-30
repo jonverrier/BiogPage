@@ -1,7 +1,4 @@
 {
   "dependencies": {
-    "@azure/functions": "^3.5.0",
-    "@fluidframework/azure-client": "^1.1.1",
-    "@fluidframework/azure-service-utils": "^1.1.1"
   }
 }
