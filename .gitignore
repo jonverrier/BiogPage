@@ -2,8 +2,7 @@
 *.manifest
 *.testlog
 *.log
-*.map
 .vs/*
-.github/*
-
+node_modules/*
+dist/*
 
